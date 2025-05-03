@@ -9,7 +9,6 @@ A Java-based AI chess engine developed by [Panagiwths Papatheodoropoulos](https:
 - **Game Modes:** Play against the AI or observe AI vs. AI matches.
 - **Board Representation:** Utilizes standard chess notation and board representation for move calculations.
 
-*Note: Detailed features and functionalities are to be documented as the project evolves.*
 
 ## Getting Started
 
