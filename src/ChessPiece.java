@@ -1,5 +1,5 @@
 public class ChessPiece {
-    public enum Type { PAWN, ROOK, KNIGHT, BISHOP, QUEEN, KING }
+    public enum Type { PAWN, ROOK, KNIGHT, BISHOP, QUEEN, KING };
 
     private Type type;
     private ChessBoard.Player player;
