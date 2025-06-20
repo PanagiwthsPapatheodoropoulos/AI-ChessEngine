@@ -1,0 +1,60 @@
+# Compiled Java files
+*.class
+
+# Package Manager specific files (if applicable, e.g., Maven, Gradle)
+# For Maven:
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# For Gradle:
+.gradle/
+/build/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+hs_err_pid*.log
+
+# IDE specific files
+.idea/             # IntelliJ IDEA files
+.vscode/           # VS Code files
+*.iml              # IntelliJ IDEA module files
+.project           # Eclipse project files
+.classpath         # Eclipse classpath files
+.settings/         # Eclipse settings directory
+
+# OS generated files
+.DS_Store          # macOS folder metadata
+Thumbs.db          # Windows thumbnail cache
+
+# Log files
+*.log
+log/
+
+# Binaries/Executables (if you compile directly into a bin folder)
+/bin/
+
+# Temporary files
+*~
+*.bak
+*.tmp
+temp/
+
+# Library files (if you manually place them in a 'lib' folder and don't manage them with a build tool)
+# Generally, it's better to manage dependencies with Maven/Gradle.
+# If you are NOT using a build tool and have your libraries in a 'lib' folder,
+# and you explicitly DO NOT want to commit them:
+#/lib/
+# However, if your 'lib' folder contains necessary JARs that aren't fetched by a build system,
+# you might actually want to commit them, so uncomment the above line ONLY if you're sure.
+# For typical Java projects, you'd ignore build outputs like target/ or build/ which contain final JARs,
+# but not the source of third-party libraries if they are part of the project structure.
